@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Development\\2021\\net\\datingApp2021\\API\\API.csproj": {}
+    "d:\\Development\\2021\\net\\datingApp2021\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Development\\2021\\net\\datingApp2021\\API\\API.csproj": {
+    "d:\\Development\\2021\\net\\datingApp2021\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Development\\2021\\net\\datingApp2021\\API\\API.csproj",
+        "projectUniqueName": "d:\\Development\\2021\\net\\datingApp2021\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Development\\2021\\net\\datingApp2021\\API\\API.csproj",
+        "projectPath": "d:\\Development\\2021\\net\\datingApp2021\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\Development\\2021\\net\\datingApp2021\\API\\obj\\",
+        "outputPath": "d:\\Development\\2021\\net\\datingApp2021\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
